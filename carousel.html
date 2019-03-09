@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/carousel.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <ul class="carousel_list">
+        <li class="carousel_list_img" src="./images/500x300.png"></li>
+        <li class="carousel_list_img" src="./images/500x300.png"></li>
+        <li class="carousel_list_img" src="./images/500x300.png"></li>
+      </ul>
+    </div>
+
+    <script src="./js/carousel.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        carousel.init();
+      });
+    </script>
+  </body>
+</html>
